@@ -1,0 +1,30 @@
+<svg
+  {...Astro.props}
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 48 48"
+  width="48px"
+  height="48px"
+  >
+    <!-- Gradientes (necesarios para los colores originales) -->
+  <defs>
+    <linearGradient id="androidHead" x1="20.52" x2="26.881" y1="7.763" y2="43.842">
+      <stop offset=".155" stop-color="#4f8fff"/>
+      <stop offset=".925" stop-color="#3f73cc"/>
+    </linearGradient>
+    <linearGradient id="androidBody" x1="21.417" x2="24.385" y1=".205" y2="17.039">
+      <stop offset="0" stop-color="#3ddc84"/>
+      <stop offset=".794" stop-color="#37c777"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cuerpo (parte verde) -->
+  <path fill="url(#androidBody)" d="M30.009,5.627l1.85-3.117c0.282-0.475,0.125-1.089-0.349-1.371c-0.475-0.283-1.088-0.125-1.371,0.349l-1.945,3.276C26.889,4.276,25.478,4,24,4s-2.889,0.276-4.195,0.765L17.86,1.489c-0.282-0.474-0.895-0.632-1.371-0.349c-0.475,0.282-0.631,0.896-0.349,1.371l1.85,3.117c-3.301,1.92-5.608,5.362-5.94,9.373H35.95C35.618,10.989,33.311,7.547,30.009,5.627z"/>
+
+  <!-- Cabeza (parte azul) -->
+  <path fill="url(#androidHead)" d="M39.5,14c-0.494,0-30.14,0-31,0C6.567,14,5,12.433,5,10.5c0,0.001,0,25.067,0,27S6.567,41,8.5,41C9.36,41,43,41,43,41s0-21.567,0-23.5S41.433,14,39.5,14z"/>
+
+  <!-- Ojos -->
+  <circle cx="19" cy="10" r="1" fill="#fff"/>
+  <circle cx="29" cy="10" r="1" fill="#fff"/>
+</svg>
